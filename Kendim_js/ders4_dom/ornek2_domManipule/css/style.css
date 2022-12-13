@@ -1,0 +1,24 @@
+.btn{
+    width:100px;
+    heigth:40px;
+    font-size:16pt;
+}
+.input-div{
+    margin-top:30px;
+    font-size: 16pt;
+    /*background-color:beige;*/
+}
+.textbox,
+.dil{
+    width:300px;
+    height: 40px;
+    font-size: 16pt;
+}
+.liste{
+    font-size: 16pt;
+}
+
+.resim{
+    width:400;
+    height:400;
+}
