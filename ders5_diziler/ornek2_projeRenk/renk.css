@@ -1,0 +1,22 @@
+.konteynir{
+border:2px solid red;
+width:100vw;
+height:100vh;
+/*wiewport verince tarayici alanini yuzde yuz alir ortalar ekrani sifira sifir kaplar
+*/
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.btn{
+padding: 20px;
+background-color: bisque;
+border-radius: 10px;
+
+}
+.btn:hover{
+    background-color: rgb(224,187,140);
+    
+}

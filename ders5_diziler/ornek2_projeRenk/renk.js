@@ -1,0 +1,46 @@
+const renkler=[
+    "AliceBlue",
+    "AntiqueWhite",
+    "Aqua",
+    "Aquamarine",
+    "Azure",
+    "Beige",
+    "Bisque",
+    "Black",
+    "BlanchedAlmond",
+    "Blue",
+    "BlueViolet",
+    "Brown",
+    "CadetBlue",
+"ChartBlue",
+"Chocolate",
+"Crimson",
+"Cyan",
+"DarkOrange",
+"DarkRed",
+"DarkSalmon",
+"DarkTurquoise",
+"DarkViolet",
+"DeepPink",
+"DimGrey",
+"FireBrick",
+"Gainsboro",
+"GhostWhite",
+"Silver",
+"Snow",
+"SpringGreen",
+"Tan",
+"Teal",
+"Thistle",
+"Violet",
+"Wheat",
+"WhiteSmoke",
+"Yellow",
+];
+document.querySelector(".btn").onclick=function(){
+const rastgele=Math.floor(Math.random()*renkler.length);
+document.querySelector(".renk").textContent=renkler[rastgele];
+document.querySelector("body").style.backgroundColor=renkler[rastgele];
+document.querySelector("h1").style.backgroundColor="white";
+document.querySelector("h1").style.color=renkler[rastgele];
+};
